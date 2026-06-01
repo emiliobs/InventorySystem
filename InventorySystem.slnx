@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="InventorySystem.API/InventorySystem.API.csproj" />
+  <Project Path="InventorySystem.Application/InventorySystem.Application.csproj" />
+  <Project Path="InventorySystem.Domain/InventorySystem.Domain.csproj" />
+  <Project Path="InventorySystem.Infrastructure/InventorySystem.Infrastructure.csproj" />
+  <Project Path="InventorySystem.Mobile/InventorySystem.Mobile.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="InventorySystem.Web/InventorySystem.Web.csproj" />
+</Solution>
