@@ -49,20 +49,9 @@ Infrastructure     ← EF Core + SQL Server
  Add-Migration InitialCreate -StartupProject InventorySystem.API
 Update-Database -StartupProject InventorySystem.API
 
-1. Ve a github.com → New repository
+4. Set multiple startup projects: API + Web
+5. Press F5
 
-2. Repository name:
-   inventory-system-clean-architecture
+## 👨‍💻 Author
+Built Emilio Barrera as a graduation project — Class of July 2025 🎓
 
-3. Description:
-   Full-stack Inventory Management System built with .NET 10, 
-   Clean Architecture, ASP.NET Core Web API, Blazor WebAssembly 
-   + MudBlazor, and .NET MAUI mobile app.
-
-4. Visibility: Public ✅ (para el portfolio)
-
-5. ✅ Add a README file
-
-6. .gitignore: VisualStudio
-
-7. Click: Create repository
